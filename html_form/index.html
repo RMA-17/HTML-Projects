@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- form bisa dinamakan dengan name -->
+    <form action="#">
+        <fieldset>
+            <legend><h2>Data Siswa</h2></legend>
+            <div class="input">
+                <!-- for menandakan label ini untul siapa -->
+                <label for="nama">Nama</label>
+                <input type="text" placeholder="Ini placeholder" name="nama" id="nama" required>
+            </div>
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <!-- Checkbox -->
+            <div class="input">
+                <label>
+                    <input type="checkbox" name="pilihan1" id="pilihan1" value="Pilihan 1"> Pilihan 1
+                </label>
+                <label>
+                    <input type="checkbox" name="pilihan1" id="pilihan1" value="Pilihan 1"> Pilihan 2
+                </label>
+                <label>
+                    <input type="checkbox" name="pilihan1" id="pilihan1" value="Pilihan 1"> Pilihan 3
+                </label>
+            </div>
+            <!-- Radio Button -->
+            <div class="input">
+                <!-- Radio Button name nya sama, value nya beda -->
+                <label>
+                    <input type="radio" name="radio" value="pilihan_1"> Pilihan 1
+                </label>
+                <label>
+                    <input type="radio" name="radio" value="pilihan_2"> Pilihan 2
+                </label>
+                <label>
+                    <input type="radio" name="radio" value="pilihan_3"> Pilihan 3
+                </label>
+            </div>
+
+            <!-- Select options -->
+
+            <div class="input">
+                <label for="agama">Agama</label>
+                <select name="agama">
+                    <option value="">Select agama...</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kafir">Kristen</option>
+                    <option value="Kafir">Buddha</option>
+                    <option value="Kafir">Saya tidak beragama (Atheistx)</option>
+                </select>
+            </div>
+
+            <!-- Date -->
+            <div class="input">
+                <label for="date"> Tanggal/Tahun
+                    <input type="date" name="date">
+                </label>
+            </div>
+            <!-- Text Area -->
+            <div class="input">
+                <label for="alamat">Alamat</label>
+                <textarea name="alamat" cols="30" rows="10" placeholder="Isi Alamat"></textarea>
+            </div>
+            <!-- Color -->
+            <div class="input">
+                <label for="color">Warna</label>
+                <input type="color" name="warna">
+            </div>
+
+            <div class="input">
+                <button class="button" type="submit" onclick="buttonOnClick()">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+
+    <script>
+        function buttonOnClick() {
+            var nama = document.getElementById("nama").value;
+            var password = document.getElementById("password").value;
+            alert("Terima kasih " + nama + ", Passwordmu: " + password)
+        }
+    </script>
+</body>
+</html>
+
+<style>
+
+
+    .input {
+        margin: 10px 0;
+    }
+
+
+</style>

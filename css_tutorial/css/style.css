@@ -1,0 +1,71 @@
+/* Ini namanya external css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    /* Default dari sebuah pembuatan website: */
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Manggil Tag: */
+body {
+    /* Display: flex = match_parent */
+    /* display: flex;
+    /* Ngecentre in semua content */
+    /* justify-content: center; */
+
+    /* Menumpuk menggunakan absolute */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+}
+
+.header {
+    display: flex;
+    /* rem > px */
+    padding: 1rem 2rem;
+    align-items: center;
+    background-color: red;
+}
+
+.header h2 {
+    font-size: 32px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+li a {
+    text-decoration: none;
+    /* margin: verticalpx horizontalpx */
+    margin: 0 10px;
+    color: black;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    border-radius: 32px;
+}
+
+/* Manggil ID: */
+/* #header { */
+
+/* } */
+
+/* Manggil Class */
+/* .container { */
+
+/* } */
