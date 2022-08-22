@@ -1,0 +1,92 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap');
+
+
+section {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 5px;
+    background-color: #f1f1f1;
+    text-align: start;
+    overflow: hidden;
+}
+
+.header-right li a:hover {
+    color: #68655e;
+}
+
+.header-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.header-right li a {
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 80px;
+
+}
+
+.header a {
+    float: left;
+    color: #a8a7b7;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    justify-content: center;
+}
+
+.header a.website-name {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #68655e;
+}
+
+.header-right {
+    font-family: 'Inter', sans-serif;
+    float: right;
+}
+
+/* About Section */
+#about {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.col-50 p {
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.col-50 .logo-img img {
+    border-radius: 30px;
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+    margin-left: 25%;
+}

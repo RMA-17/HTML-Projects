@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+body {
+    background-color: #e0e4fc;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 5px;
+}
+
+.header-menu {
+    float: right;
+}
+
+.header-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.header-menu li a {
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+}
+
+header {
+    background-color: #FFF;
+    box-shadow: #000 0px 0px 20px;
+    text-align: center;
+    padding: 1.5rem 5rem;
+    overflow: hidden;
+}
+
+#login-button {
+    background-color: #343830;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+#login-button:hover {
+    letter-spacing: 3px;
+}
+
+.nama-toko {
+    float: left;
+    display: flex;
+}
+
+.nama-toko h2 a {
+    text-decoration: none;
+    color: #343830;
+}
+
+p {
+    /* Standard nya 1.5 */
+    line-height: 1.8;
+}
+
+section {
+    margin-top: 100px;
+    padding: 40px 80px;
+}
+
+#store-description {
+    display: flex;
+}
+
+.col-50 {
+    width: 50%;
+    justify-content: center;
+}
+
+.col-50 .logo-img {
+    object-fit: contain;
+    margin-left: 25%;
+}
+
+.col-50 h2 {
+    text-shadow: #000 0px 0px 20px;
+}
+
+.store-desc #click-here {
+    color: #343830;
+    margin-top: 15px;
+    padding: 1rem 1.5rem;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 32px;
+    outline-style: none;
+    font-size: 14px;
+    border: 0px solid #000;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    /* Text Decoration: */
+    /*
+        - dashed
+        - dotted
+        - double
+        - solid
+        - wavy
+    */
+}
+
+.store-desc #click-here:hover {
+    background-color: #343830;
+    letter-spacing: 2.5px;
+    color: #FFF;
+}

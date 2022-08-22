@@ -1,0 +1,64 @@
+.container {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: red;
+}
+
+.container2 {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    background-color: red;
+}
+
+.input-border {
+    margin: 16px;
+}
+
+.input-outline {
+    margin: 16px;
+}
+
+.input-outline input {
+    outline: 2px solid red
+}
+
+.input-border input {
+    border: 2px solid red;
+}
+
+#relative {
+    background-color: yellow;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 30%;
+    height: 80px;
+}
+
+#relative2 {
+    width: 30%;
+    height: 80px;
+    background-color: red;
+}
+
+.absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    background-color: lightslategray;
+    border: 3px solid blue;
+}
+
+body {
+    margin: 0px;
+}
