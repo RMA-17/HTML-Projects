@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.root {
+    background-color: #00701a;
+    padding: 1rem 2rem;
+    color: #FFF;
+    display: flex;
+}
+
+.root #email {
+    margin-left: auto;
+}
+
+header {
+    position: flex;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 30px;
+}
+
+.logo-rabbaanii {
+    float: left;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+
+.menu-list ul li {
+    text-decoration: none;
+}
+
+.menu-list ul li a {
+    margin: 18px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.35s;
+}
+
+.logo-rabbaanii {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.logo-rabbaanii .title {
+    line-height: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.logo-rabbaanii .title h2 {
+    font-weight: 800;
+}
+
+.logo-rabbaanii .title span {
+    font-size: small;
+}
+
+.login-button {
+    padding: 20px;
+}
+
+.login-button a {
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #00701a;
+    transition: 0.7s;
+}
+
+.login-button a:hover {
+    background-color: #00360D;
+}
+
+section {
+    padding: 3rem;
+}
+
+#welcome {
+    display: flex;
+    align-items: center;
+}
+
+.col-50 {
+    width: 50%;
+    justify-content: center;
+}
+
+.col-50 img {
+    object-fit: contain;
+    margin-left: 20%;
+}
+
+.kata-kata p {
+    line-height: 2rem;
+}
+
+.kata-kata h2 {
+    margin-bottom: 1rem;
+}
+
+.selengkapnya-btn {
+    margin-top: 20px;
+}
+
+.selengkapnya-btn a {
+    background-color: #00701a;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 12px;
+    padding: 0.6rem;
+    font-size: 18px;
+    transition: 0.8s;
+}
+
+.selengkapnya-btn a:hover {
+    background-color: #00360D;
+}
+
+ul li a:hover {
+    color: #00701a;
+}
